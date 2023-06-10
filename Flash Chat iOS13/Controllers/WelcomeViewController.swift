@@ -13,6 +13,6 @@ class WelcomeViewController: UIViewController {
         registerButton.layer.cornerRadius = 10
         
         titleLabel.text = "⚡️FlashChat"
-  
+        navigationController?.isNavigationBarHidden = true
     }
 }
